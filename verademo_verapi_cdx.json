@@ -1,0 +1,4188 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": "1",
+    "serialNumber": "bd50e46b-a7eb-4274-9b2f-4c6d6f28357b",
+    "vulnerabilities": [
+        {
+            "id": "CVE-2015-0254",
+            "source": {
+                "url": "https://lists.apache.org/thread.html/r6c93d8ade3788dbc00f5a37238bc278e7d859f2446b885460783a16f@%3Cpluto-dev.portals.apache.org%3E",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "score": 8.3,
+                    "severity": "high",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+                }
+            ],
+            "created": "2015-02-27T00:00:00.000+0000",
+            "published": "2015-02-26T00:00:00.000+0000",
+            "updated": "2021-07-21T00:00:00.000+0000",
+            "cwes": [],
+            "description": "XML External Entity (XXE) Through An XSLT Extension Apache Standard Taglibs before 1.2.3 allows remote attackers to execute arbitrary code or conduct external XML entity (XXE) attacks via a crafted XSLT extension in a (1) <x:parse> or (2) <x:transform> JSTL XML tag.",
+            "affects": [
+                {
+                    "ref": "maven:javax.servlet:jstl:1.2:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r6c93d8ade3788dbc00f5a37238bc278e7d859f2446b885460783a16f@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf1179e6971bc46f0f68879a9a10cc97ad4424451b0889aeef04c8077@%3Cpluto-scm.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc1686f6196bb9063bf26577a21b8033c19c1a30e5a9159869c8f3d38@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/re3b72cbb13e1dfe85c4a06959a3b6ca6d939b407ecca80db12b54220@%3Cdev.tomcat.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rfc2bfd99c340dafd501676693cd889c1f9f838b97bdd0776a8f5557d@%3Cdev.tomcat.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/f8e0814e11c7f21f42224b6de111cb3f5e5ab5c15b78924c516d4ec2@%3Cdev.tomcat.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/8a20e48acb2a40be5130df91cf9d39d8ad93181989413d4abcaa4914@%3Cdev.tomcat.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/archive/1/534772/100/0/threaded"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/errata/RHSA-2016:1376"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://rhn.redhat.com/errata/RHSA-2015-1695.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://lists.opensuse.org/opensuse-updates/2015-10/msg00033.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securitytracker.com/id/1034934"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://rhn.redhat.com/errata/RHSA-2016-1839.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://rhn.redhat.com/errata/RHSA-2016-1841.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://rhn.redhat.com/errata/RHSA-2016-1840.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://rhn.redhat.com/errata/RHSA-2016-1838.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.ubuntu.com/usn/USN-2551-1"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://mail-archives.apache.org/mod_mbox/tomcat-taglibs-user/201502.mbox/%3C82207A16-6348-4DEE-877E-F7B87292576A%40apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/72809"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://packetstormsecurity.com/files/130575/Apache-Standard-Taglibs-1.2.1-XXE-Remote-Command-Execution.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://mail-archives.us.apache.org/mod_mbox/www-announce/201502.mbox/%3C82207A16-6348-4DEE-877E-F7B87292576A@apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http:"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2015-4852",
+            "source": {
+                "url": "https://www.exploit-db.com/exploits/46628/",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "score": 5.6,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+                }
+            ],
+            "created": "2015-11-09T00:00:00.000+0000",
+            "published": "2015-11-05T00:00:00.000+0000",
+            "updated": "2022-04-19T00:00:00.000+0000",
+            "cwes": [
+                77
+            ],
+            "description": "Potential Remote Code Execution Via Java Object Deserialization Apache Commons includes a class called InvokerTransformer. An application is vulnerable to a deserialization attack if this class is available on the classpath and the application deserializes untrusted or user-supplied data. It's not necessary to actually use InvokerTransfomer to be vulnerable. With these two criteria satisfied, an attacker may construct a gadget chain using classes in the component to execute arbitrary code. The chain relies on the class InvokerTransformer in the org.apache.commons.collections.functors package to invoke methods during the deserialization process.\n\nThe fix prevents deserialization of InvokerTransformer by default unless it's specifically enabled.\n\nCVE-2015-4852, CVE-2015-6420, CVE-2015-7501, and CVE-2015-7450 are all related to this artifact.",
+            "affects": [
+                {
+                    "ref": "maven:org.apache.commons:commons-collections4:4.0:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.exploit-db.com/exploits/46628/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.exploit-db.com/exploits/42806/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/foxglovesec/JavaUnserializeExploits/blob/master/weblogic.py"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://blogs.oracle.com/security/entry/security_alert_cve_2015_4852"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/77539"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/topics/security/alert-cve-2015-4852-2763333.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuoct2016-2881722.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuapr2017-3236618.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.openwall.com/lists/oss-security/2015/11/17/19"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://packetstormsecurity.com/files/152268/Oracle-Weblogic-Server-Deserialization-Remote-Code-Execution.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securitytracker.com/id/1038292"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://issues.apache.org/jira/browse/COLLECTIONS-580"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://svn.apache.org/viewvc?view=revision&revision=1713307"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http:"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http:"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://blogs.apache.org/foundation/entry/apache_commons_statement_to_widespread"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://seclists.org/oss-sec/2015/q4/238"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-6420"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www-01.ibm.com/support/docview.wss?uid=swg21970575"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4852"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2016-1000031",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "score": 9.8,
+                    "severity": "critical",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2016-10-26T00:00:00.000+0000",
+            "published": "2016-01-21T00:00:00.000+0000",
+            "updated": "2021-10-20T00:00:00.000+0000",
+            "cwes": [
+                284
+            ],
+            "description": "Remote Code Execution Via Serialization Apache Commons FileUpload is vulnerable to remote code execution via serialization. In Apache Commons FileUpload, a DiskFileItem is used to handle file uploads. DiskFileItem is serializable and implements custom writeObject() and readObject() functions. An attacker is possible to modify the serialized data before it is deserialized, and write or copy files to disk in arbitrary locations. Furthermore, it's possible for an attacker to integrate this vulnerability with the ysoserial tool to upload and execute binaries in a single deserialization call.",
+            "affects": [
+                {
+                    "ref": "maven:commons-fileupload:commons-fileupload:1.3.2:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.tenable.com/security/research/tra-2016-30"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.tenable.com/security/research/tra-2016-23"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.tenable.com/security/research/tra-2016-12"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuoct2016-2881722.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20190212-0001/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/d66657323fd25e437face5e84899c8ca404ccd187e81c3f2fa8b6080@%3Cannounce.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/708d94141126eac03011144a971a6411fcac16d9c248d1d535a39451@%3Csolr-user.lucene.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://issues.apache.org/jira/browse/WW-4812"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.zerodayinitiative.com/advisories/ZDI-16-570/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/93604"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://lists.opensuse.org/opensuse-security-announce/2019-05/msg00036.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.tenable.com/security/research/tra-2016-12"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/frohoff/ysoserial/commit/20580e918dc5217ca3120c63f1d9c02d4bca0a85"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://issues.apache.org/jira/browse/FILEUPLOAD-279"
+                }
+            ]
+        },
+        {
+            "id": "SRCCLR-SID-5295",
+            "source": {
+                "url": "https://issues.apache.org/jira/browse/IO-487",
+                "name": "Vendor Jira Ticket"
+            },
+            "ratings": [
+                {
+                    "score": 5.1,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": ""
+                },
+                {
+                    "score": 5.6,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+                }
+            ],
+            "created": "2017-10-20T00:00:00.000+0000",
+            "published": "2015-11-13T00:00:00.000+0000",
+            "updated": "2018-08-01T00:00:00.000+0000",
+            "cwes": [],
+            "description": "Remote Code Execution (RCE) Via Java Object Deserialization commons-io is vulnerable to remote code execution (RCE) attacks. These attacks are possible because the library doesn't restrict the classes which can be accepted when deserializing a binary.",
+            "affects": [
+                {
+                    "ref": "maven:commons-io:commons-io:2.4:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://issues.apache.org/jira/browse/IO-487"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2018-1199",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpujul2020.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 5,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "score": 5.3,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+                }
+            ],
+            "created": "2018-01-31T00:00:00.000+0000",
+            "published": "2017-10-27T00:00:00.000+0000",
+            "updated": "2022-06-23T00:00:00.000+0000",
+            "cwes": [
+                20
+            ],
+            "description": "Security Constraint Bypass spring-security-web and spring-web are vulnerable to security bypass with static resources. Spring uses the output of `getPathInfo()` when mapping security constraints and requests. It is not standardized whether the path parameters should be included in the value from `getPathInfo()`. Using this knowledge, attackers can bypass security constraints by using encoded characters.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-webmvc:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/dcf8599b80e43a6b60482607adb76c64672772dc2d9209ae2170f369@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/ab825fcade0b49becfa30235b3d54f4a51bb74ea96b6c9adb5d1378c@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/4ed49b103f64a0cecb38064f26cbf1389afc12124653da2d35166dbe@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/errata/RHSA-2018:2405"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://pivotal.io/security/cve-2018-1199"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://jira.spring.io/browse/SPR-16281"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2018-1271",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 4.3,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "score": 5.9,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+                }
+            ],
+            "created": "2018-04-06T00:00:00.000+0000",
+            "published": "2018-04-05T00:00:00.000+0000",
+            "updated": "2022-06-23T00:00:00.000+0000",
+            "cwes": [
+                22
+            ],
+            "description": "Directory Traversal spring-webmvc is vulnerable to directory traversal attack. The vulnerability exists due to the improper sanitization of the path values which allows valid Windows files to be served as static resources. This vulnerability only affects spring-webmvc running on Windows which allows serving files with the `file:` locator, does not use Spring Security with versions patched for `CVE-2018-1199`, and use Tomcat/WildFly as the server.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-webmvc:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/errata/RHSA-2018:2939"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/errata/RHSA-2018:2669"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/errata/RHSA-2018:1320"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/103699"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpujul2018-4258247.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://jira.spring.io/browse/SPR-16616"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://pivotal.io/security/cve-2018-1271"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2018-1272",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 6,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+                },
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2018-04-06T00:00:00.000+0000",
+            "published": "2018-03-23T00:00:00.000+0000",
+            "updated": "2022-06-23T00:00:00.000+0000",
+            "cwes": [],
+            "description": "Privilege Escalation Through Multipart Content Pollution spring-core is vulnerable to multipart content pollution. The application uses an insecure number generator to generate the multipart boundary parameter value, allowing a malicious user to make a informed guess the multipart boundary parameter value. A malicious user can potentially perform a privilege escalation attack by sending tampered requests to a server that the user does not have sufficient access control to.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-core:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/errata/RHSA-2018:2669"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://jira.spring.io/browse/SPR-16635"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/errata/RHSA-2018:1320"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://pivotal.io/security/cve-2018-1272"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/103697"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpujul2018-4258247.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://exchange.xforce.ibmcloud.com/vulnerabilities/141286"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2018-11039",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 4.3,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "score": 5.9,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+                }
+            ],
+            "created": "2018-06-18T00:00:00.000+0000",
+            "published": "2018-05-18T00:00:00.000+0000",
+            "updated": "2022-06-23T00:00:00.000+0000",
+            "cwes": [],
+            "description": "Cross-Site Tracing (XST) spring-web is vulnerable to cross-site tracing (XST) attacks. The vulnerability exists as `HiddenHttpMethodFilter` allows web applications to change existing HTTP request method to any HTTP method, causing applications with existing cross-site scripting (XSS) vulnerability to be vulnerable to XST.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-web:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.debian.org/debian-lts-announce/2021/04/msg00022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://pivotal.io/security/cve-2018-11039"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/107984"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/compare/d196cdc5cde22308d60fb3eae1bc3e54ccf6bb0a...a5cd01a4c857aaaba7ccc51545fc73dd25b5cba5"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/323ccf99e575343f63d56e229c25c35c170b7ec1"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2018-11040",
+            "source": {
+                "url": "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 4.3,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+                }
+            ],
+            "created": "2018-06-18T00:00:00.000+0000",
+            "published": "2018-06-07T00:00:00.000+0000",
+            "updated": "2022-06-24T00:00:00.000+0000",
+            "cwes": [
+                829
+            ],
+            "description": "Cross-Domain Request Through Insecure JSONP Defaults spring-webmvc is vulnerable to cross-domain requests. The vulnerability exists as JSONP is enabled through the `jsonp` and `callback` JSONP parameters in MappingJackson2JsonView by default.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-webmvc:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/ac37b678a3ac9ee541a10e8ad74d612bb9ec5b88"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.debian.org/debian-lts-announce/2021/04/msg00022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://pivotal.io/security/cve-2018-11040"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/874859493bbda59739c38c7e52eb3625f247b93a"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2018-15756",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 5,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+                },
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+                }
+            ],
+            "created": "2018-10-19T00:00:00.000+0000",
+            "published": "2018-10-04T00:00:00.000+0000",
+            "updated": "2022-05-13T00:00:00.000+0000",
+            "cwes": [],
+            "description": "Denial Of Service (DoS) spring-web is vulnerable to denial of service (DoS). A malicious user can pass a HTTP request containing a header with overlapping ranges, leading to an error which would crash the service.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-webmvc:4.3.10.RELEASE:"
+                },
+                {
+                    "ref": "maven:org.springframework:spring-web:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com//security-alerts/cpujul2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.debian.org/debian-lts-announce/2021/04/msg00022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/efaa52b0aa67aae7cbd9e6ef96945387e422d7ce0e65434570a37b1d@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/105703"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/bb354962cb51fff65740d5fb1bc2aac56af577c06244b57c36f98e4d@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://jira.spring.io/browse/SPR-17318"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/7b156ee50ba3ecce87b33c06bf7a749d84ffee55e69bfb5eca88fcc3@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/f8905507a2c94af6b08b72d7be0c4b8c6660e585f00abfafeccc86bc@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/d6a84f52db89804b0ad965f3ea2b24bb880edee29107a1c5069cc3dd@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://pivotal.io/security/cve-2018-15756"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/advisories/GHSA-ffvq-7w96-97p7"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/77886fec378ee6064debb1efb6b464a4a0173b2ff0d151ed86d3a228@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/339fd112517e4873695b5115b96acdddbfc8f83b10598528d37c7d12@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/a3071e11c6fbd593022074ec1b4693f6d948c2b02cfa4a5d854aed68@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/8a1fe70534fc52ff5c9db5ac29c55657f802cbefd7e9d9850c7052bd@%3Cissues.activemq.apache.org%3E"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2019-2692",
+            "source": {
+                "url": "http://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 3.5,
+                    "severity": "low",
+                    "method": "CVSSv2",
+                    "vector": "AV:L/AC:H/Au:S/C:P/I:P/A:P"
+                },
+                {
+                    "score": 6.3,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2019-07-08T00:00:00.000+0000",
+            "published": "2019-04-22T00:00:00.000+0000",
+            "updated": "2020-04-28T00:00:00.000+0000",
+            "cwes": [
+                20
+            ],
+            "description": "Authorization Bypass mysql-connector-java is vulnerable to authorization bypass. A difficult-to-exploit vulnerability allows a high-privileged attacker to bypass authorization, compromise the MySQL connectors and obtain full control over the connectors.",
+            "affects": [
+                {
+                    "ref": "maven:mysql:mysql-connector-java:5.1.48:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20190423-0002/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.securityfocus.com/bid/107925"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2019-17571",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "score": 9.8,
+                    "severity": "critical",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2019-12-23T00:00:00.000+0000",
+            "published": "2019-03-12T00:00:00.000+0000",
+            "updated": "2022-06-07T00:00:00.000+0000",
+            "cwes": [
+                502
+            ],
+            "description": "Arbitrary Code Execution log4j-core is vulnerable to arbitrary code execution. Deserialization of untrusted data in `TcpSocketServer` and `UdpSocketServer` when listening for log data allows an attacker to execute arbitrary code via a malicious deserialization gadget.",
+            "affects": [
+                {
+                    "ref": "maven:log4j:log4j:1.2.17:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rcd71280585425dad7e232f239c5709e425efdd0d3de4a92f808a4767@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/ra9611a8431cb62369bce8909d7645597e1dd45c24b448836b1e54940@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8418a0dff1729f19cf1024937e23a2db4c0f94f2794a423f5c10e8e7@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rfdf65fa675c64a64459817344e0e6c44d51ee264beea6e5851fb60dc@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rb3c94619728c8f8c176d8e175e0a1086ca737ecdfcd5a2214bb768bc@%3Ccommits.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r90c23eb8c82835fa82df85ae5e88c81fd9241e20a22971b0fb8f2c34@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf53eeefb7e7e524deaacb9f8671cbf01b8a253e865fb94e7656722c0@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/ra18a903f785aed9403aea38bc6f36844a056283c00dcfc6936b6318c@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rdb7ddf28807e27c7801f6e56a0dfb31092d34c61bdd4fa2de9182119@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r6d34da5a0ca17ab08179a30c971446c7421af0e96f6d60867eabfc52@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r594411f4bddebaf48a4c70266d0b7849e0d82bb72826f61b3a35bba7@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/re36da78e4f3955ba6c1c373a2ab85a4deb215ca74b85fcd66142fea1@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r9d2e28e71f91ba0b6f4114c8ecd96e2b1f7e0d06bdf8eb768c183aa9@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rbf4ce74b0d1fa9810dec50ba3ace0caeea677af7c27a97111c06ccb7@%3Cusers.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rbf4ce74b0d1fa9810dec50ba3ace0caeea677af7c27a97111c06ccb7@%3Cdev.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r61db8e7dcb56dc000a5387a88f7a473bacec5ee01b9ff3f55308aacc@%3Cdev.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r61db8e7dcb56dc000a5387a88f7a473bacec5ee01b9ff3f55308aacc@%3Cusers.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r52a5129df402352adc34d052bab9234c8ef63596306506a89fdc7328@%3Cusers.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r9dc2505651788ac668299774d9e7af4dc616be2f56fdc684d1170882@%3Cusers.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd882ab6b642fe59cbbe94dc02bd197342058208f482e57b537940a4b@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf77f79699c8d7e430c14cf480f12ed1297e6e8cf2ed379a425941e80@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/reaf6b996f74f12b4557bc221abe88f58270ac583942fa41293c61f94@%3Cpluto-scm.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r9a9e3b42cd5d1c4536a14ef04f75048dec8e2740ac6a138ea912177f@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2721aba31a8562639c4b937150897e24f78f747cdbda8641c0f659fe@%3Cusers.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuApr2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3bf7b982dfa0779f8a71f843d2aa6b4184a53e6be7f149ee079387fd@%3Cdev.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3543ead2317dcd3306f69ee37b07dd383dbba6e2f47ff11eb55879ad@%3Cusers.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8244fd0831db894d5e89911ded9c72196d395a90ae655414d23ed0dd@%3Cusers.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd3a9511eebab60e23f224841390a3f8cd5358cff605c5f7042171e47@%3Cdev.tinkerpop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/re8c21ed9dd218c217d242ffa90778428e446b082b5e1c29f567e8374@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r18f1c010b554a3a2d761e8ffffd8674fd4747bcbcf16c643d708318c@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rca24a281000fb681d7e26e5c031a21eb4b0593a7735f781b53dae4e2@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rdf2a0d94c3b5b523aeff7741ae71347415276062811b687f30ea6573@%3Ccommits.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3a85514a518f3080ab1fc2652cfe122c2ccf67cfb32356acb1b08fe8@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r356d57d6225f91fdc30f8b0a2bed229d1ece55e16e552878c5fa809a@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r7a1acc95373105169bd44df710c2f462cad31fb805364d2958a5ee03@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd7805c1bf9388968508c6c8f84588773216e560055ddcc813d19f347@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/44491fb9cc19acc901f7cff34acb7376619f15638439416e3e14761c@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://bugzilla.redhat.com/show_bug.cgi?id=1785616"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc17d8491beee51607693019857e41e769795366b85be00aa2f4b3159@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r9fb3238cfc3222f2392ca6517353aadae18f76866157318ac562e706@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc628307962ae1b8cc2d21b8e4b7dd6d7755b2dd52fa56a151a27e4fd@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/6114ce566200d76e3cc45c521a62c2c5a4eac15738248f58a99f622c@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r05755112a8c164abc1004bb44f198b1e3d8ca3d546a8f13ebd3aa05f@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r13d4b5c60ff63f3c4fab51d6ff266655be503b8a1884e2f2fab67c3a@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r48efc7cb5aeb4e1f67aaa06fb4b5479a5635d12f07d0b93fc2d08809@%3Ccommits.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r48d5019bd42e0770f7e5351e420a63a41ff1f16924942442c6aff6a8@%3Ccommits.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rdec0d8ac1f03e6905b0de2df1d5fcdb98b94556e4f6cccf7519fdb26@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://issues.apache.org/jira/browse/LOG4J2-1863"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8d78a0fbb56d505461e29868d1026e98c402e6a568c13a6da67896a2@%3Cdev.jena.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rbdf18e39428b5c80fc35113470198b1fe53b287a76a46b0f8780b5fd@%3Cdev.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3784834e80df2f284577a5596340fb84346c91a2dea6a073e65e3397@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rb1b29aee737e1c37fe1d48528cb0febac4f5deed51f5412e6fdfe2bf@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r909b8e3a36913944d3b7bafe9635d4ca84f8f0e2cd146a1784f667c2@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf1b434e11834a4449cd7addb69ed0aef0923112b5938182b363a968c@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r5c084578b3e3b40bd903c9d9e525097421bcd88178e672f612102eb2@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/752ec92cd1e334a639e79bfbd689a4ec2c6579ec5bb41b53ffdf358d@%3Cdev.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.debian.org/security/2020/dsa-4686"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rbc45eb0f53fd6242af3e666c2189464f848a851d408289840cecc6e3@%3Ccommits.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r4b25538be50126194cc646836c718b1a4d8f71bd9c912af5b59134ad@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/564f03b4e9511fcba29c68fc0299372dadbdb002718fa8edcc4325e4@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/479471e6debd608c837b9815b76eab24676657d4444fcfd5ef96d6e6@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8c392ca48bb7e50754e4bc05865e9731b23d568d18a520fe3d8c1f75@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rbd19de368abf0764e4383ec44d527bc9870176f488a494f09a40500d@%3Ccommon-dev.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8e3f7da12bf5750b0a02e69a78a61073a2ac950eed7451ce70a65177@%3Ccommits.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.debian.org/debian-lts-announce/2020/01/msg00008.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r6aec6b8f70167fa325fb98b3b5c9ce0ffaed026e697b69b85ac24628@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2ff63f210842a3c5e42f03a35d8f3a345134d073c80a04077341c211@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0@%3Cissues.bookkeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r746fbc3fc13aee292ae6851f7a5080f592fa3a67b983c6887cdb1fc5@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20200110-0001/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/raedd12dc24412b3780432bf202a2618a21a727788543e5337a458ead@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/277b4b5c2b0e06a825ccec565fa65bd671f35a4d58e3e2ec5d0618e1@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r9d0d03f2e7d9e13c68b530f81d02b0fec33133edcf27330d8089fcfb@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r4ac89cbecd9e298ae9fafb5afda6fa77ac75c78d1ac957837e066c4e@%3Cuser.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf2567488cfc9212b42e34c6393cfa1c14e30e4838b98dda84d71041f@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rec34b1cccf907898e7cb36051ffac3ccf1ea89d0b261a2a3b3fb267f@%3Ccommits.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r696507338dd5f44efc23d98cafe30f217cf3ba78e77ed1324c7a5179@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r189aaeaad897f7d6b96f7c43a8ef2dfb9f6e9f8c1cc9ad182ce9b9ae@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8a1cfd4705258c106e488091fcec85f194c82f2bbde6bd151e201870@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc1eaed7f7d774d5d02f66e49baced31e04827a1293d61a70bd003ca7@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rda4849c6823dd3e83c7a356eb883180811d5c28359fe46865fd151c3@%3Cusers.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8890b8f18f1de821595792b58b968a89692a255bc20d86d395270740@%3Ccommits.druid.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r7bcdc710857725c311b856c0b82cee6207178af5dcde1bd43d289826@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r1b7734dfdfd938640f2f5fb6f4231a267145c71ed60cc7faa1cbac07@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3d666e4e8905157f3c046d31398b04f2bfd4519e31f266de108c6919@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2ce8d26154bea939536e6cf27ed02d3192bf5c5d04df885a80fe89b3@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://usn.ubuntu.com/4495-1/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3c575cabc7386e646fb12cb82b0b38ae5a6ade8a800f827107824495@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujul2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf9c19bcc2f7a98a880fa3e3456c003d331812b55836b34ef648063c9@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3cf50d05ce8cec8c09392624b7bae750e7643dae60ef2438641ee015@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r107c8737db39ec9ec4f4e7147b249e29be79170b9ef4b80528105a2d@%3Cdev.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd6254837403e8cbfc7018baa9be29705f3f06bd007c83708f9a97679@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r71e26f9c2d5826c6f95ad60f7d052d75e1e70b0d2dd853db6fc26d5f@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r7f462c69d5ded4c0223e014d95a3496690423c5f6f05c09e2f2a407a@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r61590890edcc64140e0c606954b29a063c3d08a2b41d447256d51a78@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/eea03d504b36e8f870e8321d908e1def1addda16adda04327fe7c125%40%3Cdev.logging.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/8ab32b4c9f1826f20add7c40be08909de9f58a89dc1de9c09953f5ac@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r681b4432d0605f327b68b9f8a42662993e699d04614de4851c35ffd1@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r6236b5f8646d48af8b66d5050f288304016840788e508c883356fe0e@%3Clog4j-user.logging.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd5dbeee4808c0f2b9b51479b50de3cc6adb1072c332a200d9107f13e@%3Cissues.activemq.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/ra38785cfc0e7f17f8e24bebf775dd032c033fadcaea29e5bc9fffc60@%3Cdev.tika.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/ra54fa49be3e773d99ccc9c2a422311cf77e3ecd3b8594ee93043a6b1@%3Cdev.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2756fd570b6709d55a61831ca028405bcb3e312175a60bc5d911c81f@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r944183c871594fe9a555b8519a7c945bbcf6714d72461aa6c929028f@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r26244f9f7d9a8a27a092eb0b2a0ca9395e88fcde8b5edaeca7ce569c@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8c6300245c0bcef095e9f07b48157e2c6471df0816db3408fcf1d748@%3Ccommon-issues.hadoop.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r6b45a2fcc8e98ac93a179183dbb7f340027bdb8e3ab393418076b153@%3Ccommon-issues.hadoop.apache.org%3E"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2020-2933",
+            "source": {
+                "url": "https://security.gentoo.org/glsa/202105-27",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 3.5,
+                    "severity": "low",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:S/C:N/I:N/A:P"
+                },
+                {
+                    "score": 2.2,
+                    "severity": "low",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L"
+                }
+            ],
+            "created": "2020-09-14T00:00:00.000+0000",
+            "published": "2020-04-09T00:00:00.000+0000",
+            "updated": "2022-06-30T00:00:00.000+0000",
+            "cwes": [],
+            "description": "Denial Of Service (DoS) mysql-connector-java is vulnerable to denial of service. When working with a load balancing setup, if the connection property `loadBalanceStrategy` was set to `bestResponseTime` and connections to all the hosts in the original setup failed, a denial of service condition will occur in Connector/J, even if newly-added hosts are available.",
+            "affects": [
+                {
+                    "ref": "maven:mysql:mysql-connector-java:5.1.48:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.gentoo.org/glsa/202105-27"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2020.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.debian.org/security/2020/dsa-4703"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MDKQVPFT4Z4SFPBH6YNFMJOXKS2YYKHA/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QDR2WOUETBT76WAO5NNCCXSAM3AGG3D/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.debian.org/debian-lts-announce/2020/06/msg00015.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://bugzilla.redhat.com/show_bug.cgi?id=1851022"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://dev.mysql.com/doc/relnotes/connector-j/5.1/en/news-5-1-49.html"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2020-5421",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 3.6,
+                    "severity": "low",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:H/Au:S/C:P/I:P/A:N"
+                },
+                {
+                    "score": 6.5,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:H/A:N"
+                }
+            ],
+            "created": "2020-09-18T00:00:00.000+0000",
+            "published": "2020-09-17T00:00:00.000+0000",
+            "updated": "2022-06-23T00:00:00.000+0000",
+            "cwes": [],
+            "description": "Reflected File Download (RFD) Attack spring-web is vulnerable to Reflected File Download (RFD) attack. An incomplete fix of CVE-2015-5211 allows an attacker to bypass the protection against RFD attack via the `jsessionid` path parameter.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-web:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com//security-alerts/cpujul2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuApr2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20210513-0009/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r1eccdbd7986618a7319ee7a533bd9d9bf6e8678e59dd4cca9b5b2d7a@%3Cissues.ambari.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/ra889d95141059c6cbe77dd80249bb488ae53b274b5f3abad09d9511d@%3Cuser.ignite.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/re014a49d77f038ba70e5e9934d400af6653e8c9ac110d32b1254127e@%3Cdev.ranger.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r5c95eff679dfc642e9e4ab5ac6d202248a59cb1e9457cfbe8b729ac5@%3Cissues.ambari.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/raf7ca57033e537e4f9d7df7f192fa6968c1e49409b2348e08d807ccb@%3Cuser.ignite.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r918caad55dcc640a16753b00d8d6acb90b4e36de4b6156d0867246ec@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r1c679c43fa4f7846d748a937955c7921436d1b315445978254442163@%3Ccommits.ambari.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r503e64b43a57fd68229cac4a869d1a9a2eac9e75f8719cad3a840211@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc9efaf6db98bee19db1bc911d0fa442287dac5cb229d4aaa08b6a13d@%3Cissues.hive.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r7e6a213eea7f04fc6d9e3bd6eb8d68c4df92a22e956e95cb2c482865@%3Cissues.hive.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/advisories/GHSA-rv39-3qh7-9v7w"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rf00d8f4101a1c1ea4de6ea1e09ddf7472cfd306745c90d6da87ae074@%3Cdev.hive.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/dd011c991ce801660ec2be7979f3fc6462f29289"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r9f13cccb214495e14648d2c9b8f2c6072fd5219e74502dd35ede81e1@%3Cdev.ambari.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd462a8b0dfab4c15e67c0672cd3c211ecd0e4f018f824082ed54f665@%3Cissues.hive.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8b496b1743d128e6861ee0ed3c3c48cc56c505b38f84fa5baf7ae33a@%3Cdev.ambari.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://tanzu.vmware.com/security/cve-2020-5421"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r3589ed0d18edeb79028615080d5a0e8878856436bb91774a3196d9eb@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rb18ed999153ef0f0cb7af03efe0046c42c7242fd77fbd884a75ecfdc@%3Ccommits.pulsar.apache.org%3E"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2021-29425",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 5.8,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+                },
+                {
+                    "score": 4.8,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
+                }
+            ],
+            "created": "2021-04-13T00:00:00.000+0000",
+            "published": "2017-11-18T00:00:00.000+0000",
+            "updated": "2022-05-12T00:00:00.000+0000",
+            "cwes": [
+                22
+            ],
+            "description": "Directory Traversal commons-io is vulnerable to directory traversal. Invoking the method `FileNameUtils.normalize` with a malicious input string would potentially allow access to files within the parent directory.",
+            "affects": [
+                {
+                    "ref": "maven:commons-io:commons-io:2.4:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20220210-0004/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r4050f9f6b42ebfa47a98cbdee4aabed4bb5fb8093db7dbb88faceba2@%3Ccommits.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r462db908acc1e37c455e11b1a25992b81efd18e641e7e0ceb1b6e046@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r5149f78be265be69d34eacb4e4b0fc7c9c697bcdfa91a1c1658d717b@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r0bfa8f7921abdfae788b1f076a12f73a92c93cc0a6e1083bce0027c5@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc5f3df5316c5237b78a3dff5ab95b311ad08e61d418cd992ca7e34ae@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r86528f4b7d222aed7891e7ac03d69a0db2a2dfa17b86ac3470d7f374@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r20416f39ca7f7344e7d76fe4d7063bb1d91ad106926626e7e83fb346@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r01b4a1fcdf3311c936ce33d75a9398b6c255f00c1a2f312ac21effe1@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/red3aea910403d8620c73e1c7b9c9b145798d0469eb3298a7be7891af@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rca71a10ca533eb9bfac2d590533f02e6fb9064d3b6aa3ec90fdc4f51@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rd09d4ab3e32e4b3a480e2ff6ff118712981ca82e817f28f2a85652a6@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/re41e9967bee064e7369411c28f0f5b2ad28b8334907c9c6208017279@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.debian.org/debian-lts-announce/2021/08/msg00016.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc10fa20ef4d13cbf6ebe0b06b5edb95466a1424a9b7673074ed03260@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2345b49dbffa8a5c3c589c082fe39228a2c1d14f11b96c523da701db@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rfcd2c649c205f12b72dde044f905903460669a220a2eb7e12652d19d@%3Cdev.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r477c285126ada5c3b47946bb702cb222ac4e7fd3100c8549bdd6d3b2@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r92ea904f4bae190b03bd42a4355ce3c2fbe8f36ab673e03f6ca3f9fa@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8bfc7235e6b39d90e6f446325a5a44c3e9e50da18860fdabcee23e29@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc65f9bc679feffe4589ea0981ee98bc0af9139470f077a91580eeee0@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2df50af2641d38f432ef025cd2ba5858215cc0cf3fc10396a674ad2e@%3Cpluto-scm.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc2dd3204260e9227a67253ef68b6f1599446005bfa0e1ddce4573a80@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r808be7d93b17a7055c1981a8453ae5f0d0fce5855407793c5d0ffffa@%3Cuser.commons.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rad4ae544747df32ccd58fff5a86cd556640396aeb161aa71dd3d192a@%3Cuser.commons.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r345330b7858304938b7b8029d02537a116d75265a598c98fa333504a@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2721aba31a8562639c4b937150897e24f78f747cdbda8641c0f659fe@%3Cusers.kafka.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rbebd3e19651baa7a4a5503a9901c95989df9d40602c8e35cb05d3eb5@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/ra8ef65aedc086d2d3d21492b4c08ae0eb8a3a42cc52e29ba1bc009d8@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r523a6ffad58f71c4f3761e3cee72df878e48cdc89ebdce933be1475c@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r2bc986a070457daca457a54fe71ee09d2584c24dc262336ca32b6a19@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r27b1eedda37468256c4bb768fde1e8b79b37ec975cbbfd0d65a7ac34@%3Cdev.myfaces.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r1c2f4683c35696cf6f863e3c107e37ec41305b1930dd40c17260de71@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rfa2f08b7c0caf80ca9f4a18bd875918fdd4e894e2ea47942a4589b9c@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r47ab6f68cbba8e730f42c4ea752f3a44eb95fb09064070f2476bb401@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8569a41d565ca880a4dee0e645dad1cd17ab4a92e68055ad9ebb7375@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/raa053846cae9d497606027816ae87b4e002b2e0eb66cb0dee710e1f5@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://issues.apache.org/jira/browse/IO-556"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r0d73e2071d1f1afe1a15da14c5b6feb2cf17e3871168d5a3c8451436@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rc359823b5500e9a9a2572678ddb8e01d3505a7ffcadfa8d13b8780ab%40%3Cuser.commons.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r873d5ddafc0a68fd999725e559776dc4971d1ab39c0f5cc81bd9bc04@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/advisories/GHSA-gwrp-pvrq-jmwv"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r8efcbabde973ea72f5e0933adc48ef1425db5cde850bf641b3993f31@%3Cdev.commons.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/rfd01af05babc95b8949e6d8ea78d9834699e1b06981040dde419a330@%3Cdev.commons.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.openwall.com/lists/oss-security/2021/04/12/1"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2021-22096",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 4,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N"
+                },
+                {
+                    "score": 4.3,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+                }
+            ],
+            "created": "2021-10-29T00:00:00.000+0000",
+            "published": "2021-10-26T00:00:00.000+0000",
+            "updated": "2022-04-28T00:00:00.000+0000",
+            "cwes": [],
+            "description": "Log Injection Spring Framework is vulnerable to privilege escalation. The vulnerability exists due to lack of secure validations of user input which allows a malicious user to inject additional log files.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-core:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20211125-0005/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/issues/27617"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/issues/27575"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://tanzu.vmware.com/security/cve-2021-22096"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2021-4104",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 6,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+                },
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2021-12-15T00:00:00.000+0000",
+            "published": "2021-12-09T00:00:00.000+0000",
+            "updated": "2022-04-20T00:00:00.000+0000",
+            "cwes": [
+                502
+            ],
+            "description": "Deserialisation Of Untrusted Object JMSAppender in log4j is vulnerable to deserialization of untrusted object. When an application is configured to use JMSAppender with the setting TopicBindingName or TopicConnectionFactoryBindingName to something that JNDI can handle - for example \"ldap://host:port/a\", an attacker is able to execute code on the server as in Log4j 2.x CVE-2021-44228. However, this vulnerability is only depending on configuration. Note: This CVE is for Log4j 1.x and its corresponding flaw information for Log4j 2.x is in CVE-2021-44228.",
+            "affects": [
+                {
+                    "ref": "maven:log4j:log4j:1.2.17:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.openwall.com/lists/oss-security/2022/01/18/3"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20211223-0007/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0033"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.kb.cert.org/vuls/id/930724"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.cve.org/CVERecord?id=CVE-2021-44228"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/security/cve/CVE-2021-4104"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/advisories/GHSA-fp5r-v3w9-4333"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/apache/logging-log4j2/pull/608#issuecomment-990494126"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2022-23307",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 9,
+                    "severity": "high",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+                },
+                {
+                    "score": 8.8,
+                    "severity": "high",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2022-01-19T00:00:00.000+0000",
+            "published": "2022-01-18T00:00:00.000+0000",
+            "updated": "2022-06-16T00:00:00.000+0000",
+            "cwes": [
+                502
+            ],
+            "description": "Remote Code Execution (RCE) Apache Chainsaw in log4j is vulnerable to remote code execution. The vulnerability exists due to a deserialization of untrusted object vulnerability allowing an attacker to execute maliciously scripted code via the system.",
+            "affects": [
+                {
+                    "ref": "maven:log4j:log4j:1.2.17:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread/rg4yyc89vs3dw6kpy3r92xop9loywyhh"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://logging.apache.org/log4j/1.2/index.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://access.redhat.com/security/cve/cve-2022-23307"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://lists.apache.org/thread/rg4yyc89vs3dw6kpy3r92xop9loywyhh"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2020-9493",
+            "source": {
+                "url": "http://www.openwall.com/lists/oss-security/2022/01/18/5",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 6.8,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "score": 9.8,
+                    "severity": "critical",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2022-01-19T00:00:00.000+0000",
+            "published": "2021-06-16T00:00:00.000+0000",
+            "updated": "2022-04-08T00:00:00.000+0000",
+            "cwes": [
+                502
+            ],
+            "description": "Remote Code Execution (RCE) Apache Chainsaw in log4j is vulnerable to remote code execution. The vulnerability exists due to a deserialization of untrusted object vulnerability allowing an attacker to execute maliciously scripted code via the system.",
+            "affects": [
+                {
+                    "ref": "maven:log4j:log4j:1.2.17:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.openwall.com/lists/oss-security/2022/01/18/5"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread.html/r50d389c613ba6062a26aa57e163c09bfee4ff2d95d67331d75265b83@%3Cannounce.apache.org%3E"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.openwall.com/lists/oss-security/2021/06/16/1"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.openwall.com/lists/oss-security/2021/06/16/1"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread/rx0hpjow5csq05r93cyvntj9ry19tm9y"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2022-23302",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 6,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+                },
+                {
+                    "score": 8.8,
+                    "severity": "high",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2022-01-19T00:00:00.000+0000",
+            "published": "2022-01-18T00:00:00.000+0000",
+            "updated": "2022-06-16T00:00:00.000+0000",
+            "cwes": [
+                502
+            ],
+            "description": "Deserialisation Of Untrusted Object JMSSink in log4j is vulnerable to deserialization of untrusted object. The insecure use of JNDI in JMSSink allows an attacker to send malicious object in LDAP store if it is accessible by an attacker or is configured to use an untrusted site, leading to a remote code execution.  Note: this vulnerability only affects the applications specifically configured to use JMSSink, which is not the default.",
+            "affects": [
+                {
+                    "ref": "maven:log4j:log4j:1.2.17:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20220217-0006/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.openwall.com/lists/oss-security/2022/01/18/3"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://logging.apache.org/log4j/1.2/index.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread/bsr3l5qz4g0myrjhy9h67bcxodpkwj4w"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2022-23305",
+            "source": {
+                "url": "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 6.8,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "score": 9.8,
+                    "severity": "critical",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2022-01-19T00:00:00.000+0000",
+            "published": "2022-01-18T00:00:00.000+0000",
+            "updated": "2022-06-16T00:00:00.000+0000",
+            "cwes": [
+                89
+            ],
+            "description": "SQL Injection JDBCAppender in Log4j is vulnerable to SQL injection attacks. An attacker is able to execute arbitrary SQL commands via entering crafted strings into input fields and headers where the values to be inserted are converters from `PatternLayout`",
+            "affects": [
+                {
+                    "ref": "maven:log4j:log4j:1.2.17:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://www.openwall.com/lists/oss-security/2022/01/18/4"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20220217-0007/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://logging.apache.org/log4j/1.2/index.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://lists.apache.org/thread/pt6lh3pbsvxqlwlp4c5l798dv2hkc85y"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2022-22965",
+            "source": {
+                "url": "http://packetstormsecurity.com/files/167011/Spring4Shell-Spring-Framework-Class-Property-Remote-Code-Execution.html",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 7.5,
+                    "severity": "high",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "score": 9.8,
+                    "severity": "critical",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "created": "2022-03-31T00:00:00.000+0000",
+            "published": "2022-03-30T00:00:00.000+0000",
+            "updated": "2022-05-19T00:00:00.000+0000",
+            "cwes": [
+                94
+            ],
+            "description": "Remote Code Execution (RCE) spring-beans is vulnerable to remote code execution. Using Spring Parameter Binding with non-basic parameter types, such as POJOs, allows an unauthenticated attacker to execute arbitrary code on the target system by writing or uploading arbitrary files (e.g .jsp files) to a location that can be loaded by the application server. \n\nInitial analysis at time of writing shows that exploitation of the vulnerability is only possible with JRE 9 and above, and Apache Tomcat 9 and above, and that the vulnerability requires the usage of Spring parameter binding with non-basic parameter types such as POJOs.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-beans:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://packetstormsecurity.com/files/167011/Spring4Shell-Spring-Framework-Class-Property-Remote-Code-Execution.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://cert-portal.siemens.com/productcert/pdf/ssa-254054.pdf"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.cyberkendra.com/2022/03/spring4shell-details-and-exploit-code.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/craig/SpringCore0day"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.praetorian.com/blog/spring-core-jdk9-rce/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "http://packetstormsecurity.com/files/166713/Spring4Shell-Code-Execution.html"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://tanzu.vmware.com/security/cve-2022-22965"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0005"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2022-22950",
+            "source": {
+                "url": "https://github.com/spring-projects/spring-framework/commit/83ac65915871067c39a4fb255e0d484c785c0c11",
+                "name": "GitHub Fix Commit"
+            },
+            "ratings": [
+                {
+                    "score": 4,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+                },
+                {
+                    "score": 6.5,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+                }
+            ],
+            "created": "2022-04-07T00:00:00.000+0000",
+            "published": "2022-03-09T00:00:00.000+0000",
+            "updated": "2022-06-22T00:00:00.000+0000",
+            "cwes": [
+                770
+            ],
+            "description": "Denial Of Service (DoS) Spring Expression is vulnerable to denial of service. The vulnerability exists due to the creation of large array in a SpEL and sending meaningless error messages to the user which allows an attacker to send crafted SpEL expressions that leads to an out ouf bound error causing an application crash.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-expression:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/83ac65915871067c39a4fb255e0d484c785c0c11"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://tanzu.vmware.com/security/cve-2022-22950"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/90cfde985ef08e8372ffefda2156f8091f65efe6"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/advisories/GHSA-558x-2xjg-6232"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/releases/tag/v5.3.17"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/releases/tag/v5.2.20.RELEASE"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2022-22968",
+            "source": {
+                "url": "https://security.netapp.com/advisory/ntap-20220602-0004/",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 5,
+                    "severity": "medium",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+                },
+                {
+                    "score": 5.3,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+                }
+            ],
+            "created": "2022-04-14T00:00:00.000+0000",
+            "published": "2022-01-11T00:00:00.000+0000",
+            "updated": "2022-06-02T00:00:00.000+0000",
+            "cwes": [
+                178
+            ],
+            "description": "Binding Rules Bypass spring-context is vulnerable to binding rules bypass. The vulnerability exists due to a lack of sanitization of HTTP request parameters allowing an attacker to bypass the `disallowedFields` and bind maliciously crafted HTTP request parameters.",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-context:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20220602-0004/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://tanzu.vmware.com/security/cve-2022-22968"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://spring.io/blog/2022/04/13/spring-framework-data-binding-rules-vulnerability-cve-2022-22968"
+                }
+            ]
+        },
+        {
+            "id": "CVE-2022-22970",
+            "source": {
+                "url": "https://security.netapp.com/advisory/ntap-20220616-0006/",
+                "name": "Vendor Disclosure"
+            },
+            "ratings": [
+                {
+                    "score": 3.5,
+                    "severity": "low",
+                    "method": "CVSSv2",
+                    "vector": "AV:N/AC:M/Au:S/C:N/I:N/A:P"
+                },
+                {
+                    "score": 5.3,
+                    "severity": "medium",
+                    "method": "CVSSv3",
+                    "vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+                }
+            ],
+            "created": "2022-05-13T00:00:00.000+0000",
+            "published": "2022-05-11T00:00:00.000+0000",
+            "updated": "2022-06-16T00:00:00.000+0000",
+            "cwes": [
+                770
+            ],
+            "description": "Denial Of Service (DoS) spring-beans is vulnerable to denial of service. An attacker can crash the application through a model object when it sets a multipart file or javax.servlet.Part of a field",
+            "affects": [
+                {
+                    "ref": "maven:org.springframework:spring-beans:4.3.10.RELEASE:"
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://security.netapp.com/advisory/ntap-20220616-0006/"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/advisories/GHSA-hh26-6xwr-ggv7"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/50177b1ad3485bd44239b1756f6c14607476fcf2"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/issues/28445"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://tanzu.vmware.com/security/cve-2022-22970"
+                },
+                {
+                    "name": "Vulnerability Link",
+                    "value": "https://github.com/spring-projects/spring-framework/commit/83186b689f11f5e6efe7ccc08fdeb92f66fcd583"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "type": "library",
+            "group": null,
+            "bom-ref": "verademo.war",
+            "name": "verademo.war",
+            "version": null,
+            "purl": null,
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "f70714b8a72a403fce601def9c926666f2e9944c"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "435ec46de43d5abaa03d104ea4ca65f8ae03fd6ea44db1accc5c9b45301cf6c3"
+                }
+            ],
+            "licenses": [],
+            "supplier": null,
+            "properties": [
+                {
+                    "name": "Match Type",
+                    "value": "Unmatched"
+                },
+                {
+                    "name": "Bytecode Hash",
+                    "value": "1118c966b4b38941ca1a8081ed30aa0895dcd244cefbaf681dde85100b9e521b"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-webmvc:4.3.10.RELEASE:",
+            "name": "spring-webmvc",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-webmvc@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "6809017a5a76bdaf1957f1cc0a892d448fc6f3df"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "c571f9f34874f01722447a23e24bf0237bbbd81e9bf68069fbfed932681168b2"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "f836d45a1d32b22a9ed71ad49bc60f50b8a286911f2d3981655d1531d8744650"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-webmvc-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "com.sun.xml.bind",
+            "bom-ref": "maven:com.sun.xml.bind:jaxb-core:2.3.0:",
+            "name": "jaxb-core",
+            "version": "2.3.0",
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "d044c784e41d026778693fb44a8026c1fd9a7506"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "33061af8d2a07379d452f8f0fddcbbf518428dfd3b83d9e2d479c1948020795b"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "EDL",
+                    "name": "Eclipse Distribution License (EDL)",
+                    "url": "https://www.eclipse.org/org/documents/edl-v10.php"
+                },
+                {
+                    "id": "GPL-3.0-only",
+                    "name": "GNU General Public License version 3.0 (GPL-3.0)",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle Corporation",
+                "url": [
+                    "https://eclipse-ee4j.github.io/jaxb-ri/",
+                    "https://github.com/eclipse-ee4j/jaxb-ri.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "e7cccd79b95fc6286824c967e98693014ecb0adedbeb5f6d9b526e637068261a"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/jaxb-core-2.3.0.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-jdbc:4.3.10.RELEASE:",
+            "name": "spring-jdbc",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-jdbc@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "91e2f69e633f8eac5d5ef516595556ab7db87f3d"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "3cd77b526440b0c5e5de557d9c80ae76f9153d4902c8e2ed9b568c248f7ee4dd"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "e661c61a91a23e852007877fa8a696b303da8fd9725ae1aefef0c9e43455ae88"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-jdbc-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "mysql",
+            "bom-ref": "maven:mysql:mysql-connector-java:5.1.48:",
+            "name": "mysql-connector-java",
+            "version": "5.1.48",
+            "purl": "pkg:maven/mysql/mysql-connector-java@5.1.48",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "9140be77aafa5050bf4bb936d560cbacb5a6b5c1"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "56e26caaa3821f5ae4af44f9c74f66cf8b84ea01516ad3803cbb0e9049b6eca8"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "GPL-2.0",
+                    "name": "GNU General Public License version 2.0 (GPL-2.0)",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "http://dev.mysql.com/doc/connector-j/en/",
+                    "https://github.com/mysql/mysql-connector-j"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "d771bd2cddda23be969f14f1244c8627b1521d3278cb56330a920b2949ab3935"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/mysql-connector-java-5.1.48.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.owasp.encoder",
+            "bom-ref": "maven:org.owasp.encoder:encoder-jsp:1.2.1:",
+            "name": "encoder-jsp",
+            "version": "1.2.1",
+            "purl": "pkg:maven/org.owasp.encoder/encoder-jsp@1.2.1",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "bd36efaa6b37fcc902cda9bd5b7f1d59a6b29d0e"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "2436b9efb2fc6adf6f4370faae0803d44e88f2eb3f8263a36964974ada122361"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "BSD-3-Clause",
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License (BSD-3-Clause)",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/owasp/owasp-java-encoder"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "c2eda1c69e6cd367cf315f64a873bb162b3873bd14a2939df7df3876add3a328"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/encoder-jsp-1.2.1.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "log4j",
+            "bom-ref": "maven:log4j:log4j:1.2.17:",
+            "name": "log4j",
+            "version": "1.2.17",
+            "purl": "pkg:maven/log4j/log4j@1.2.17",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "5af35056b4d257e4b64b9e8069c0746e8b08629f"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "http://logging.apache.org/log4j/1.2/",
+                    "http://svn.apache.org/viewvc/logging/log4j/tags/v1_2_17_rc3"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "b7730d0f64197f8c18428f19b4f5c43e01a95035ee14d1039521dd0b743ea720"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/log4j-1.2.17.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-aop:4.3.10.RELEASE:",
+            "name": "spring-aop",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-aop@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "3a8c23246045e5e1dbd7d91354741b165e997a88"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "d3af4dabc19e3264b210bb5443721502128fc3f4e88691735bb651500009da68"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "b17126e98f768c2c35320227ea619412b9b27282d34a15c91bd389b5ea2c9ce1"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-aop-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "javax.servlet",
+            "bom-ref": "maven:javax.servlet:jstl:1.2:",
+            "name": "jstl",
+            "version": "1.2",
+            "purl": "pkg:maven/javax.servlet/jstl@1.2",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "74aca283cd4f4b4f3e425f5820cda58f44409547"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "c6273119354a41522877e663582041012b22f8204fe72bba337ed84c7e649b0a"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "GPL-2.0",
+                    "name": "GNU General Public License version 2.0 (GPL-2.0)",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": []
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "ad62ef1aaa35122467978b6cb28d96cadedfa11d08c31a74a472e3053e392c69"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/jstl-1.2.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.slf4j",
+            "bom-ref": "maven:org.slf4j:slf4j-api:1.7.7:",
+            "name": "slf4j-api",
+            "version": "1.7.7",
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.7",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "2b8019b6249bb05d81d3a3094e468753e2b21311"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "69980c038ca1b131926561591617d9c25fabfc7b29828af91597ca8570cf35fe"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "MIT",
+                    "name": "MIT license (MIT)",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "http://www.slf4j.org",
+                    "https://github.com/qos-ch/slf4j"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "9cf44a320724b22d8a4a669eee95d19e058009e4bab9590394b22aad60f9a5d8"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/slf4j-api-1.7.7.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.apache.commons",
+            "bom-ref": "maven:org.apache.commons:commons-collections4:4.0:",
+            "name": "commons-collections4",
+            "version": "4.0",
+            "purl": "pkg:maven/org.apache.commons/commons-collections4@4.0",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "da217367fd25e88df52ba79e47658d4cf928b0d1"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "93f8dfcd20831a28d092427723f696bceb70b28e7fb89d7914f14d5ea492ce5a"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://commons.apache.org/proper/commons-collections/",
+                    "https://git-wip-us.apache.org/repos/asf?p=commons-collections.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "9797c7f2f9898eb6971b10923b59f1df4d6ac68c2bba5143e648ba78e4077f2f"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/commons-collections4-4.0.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.owasp.encoder",
+            "bom-ref": "maven:org.owasp.encoder:encoder:1.2.1:",
+            "name": "encoder",
+            "version": "1.2.1",
+            "purl": "pkg:maven/org.owasp.encoder/encoder@1.2.1",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "a0583521083f7c1532ffd01716c46568d97109f0"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "dd50d40a58b38c81be51239366f0980efc849ab059b5a999ae6155c0a7d59177"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "BSD-3-Clause",
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License (BSD-3-Clause)",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/owasp/owasp-java-encoder"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "97214d336dd6031e965823748146a255ab0f4cb7c53992ac261c8a78708e148e"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/encoder-1.2.1.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-web:4.3.10.RELEASE:",
+            "name": "spring-web",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-web@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "6344501cb03cb4787c67cf3f820a471e07b9203b"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "4acd2bcc308d51703b5e89e39b911c9fd548cf1308260bc747db13e69ba30bfd"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "937ac57ea87dbeb22635c75396fa39d87d3399cdaf864f9384663019aa14e2ae"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-web-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "commons-logging",
+            "bom-ref": "maven:commons-logging:commons-logging:1.2:",
+            "name": "commons-logging",
+            "version": "1.2",
+            "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "http://commons.apache.org/proper/commons-logging/",
+                    "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "7f6c1a053d5ae652535ba3a8cd693db7dda37312483ff45517545bb5339a53b1"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/commons-logging-1.2.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-expression:4.3.10.RELEASE:",
+            "name": "spring-expression",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-expression@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "4975ab542028945ab98fefba772472a40495d7ca"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "14c991be6f0a017ee4ad3de78e88f708783ccbe83c3df457586f2cadef5ba52f"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "7d006bfebb096765c6f6ea5559802d249f6e289d77b446a2ccb5d3aa06592219"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-expression-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "javax.mail",
+            "bom-ref": "maven:javax.mail:mail:1.4.7:",
+            "name": "mail",
+            "version": "1.4.7",
+            "purl": "pkg:maven/javax.mail/mail@1.4.7",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "9add058589d5d85adeb625859bf2c5eeaaedf12d"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "78c33b4f7c7b60f4b680f2d2405b1f063d71929cf1a4fbc328888379f365fcfb"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "EDL",
+                    "name": "Eclipse Distribution License (EDL)",
+                    "url": "https://www.eclipse.org/org/documents/edl-v10.php"
+                },
+                {
+                    "id": "EPL-2.0",
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "id": "GPL-2.0-with-classpath-exception",
+                    "name": "GNU General Public License with Classpath Exceptions version 2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle",
+                "url": [
+                    "http://kenai.com/hg/javamail~mercurial"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "74bb925d058023ab7650484000253d00b1adfff197da57cf37cd2fe7511652a3"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/mail-1.4.7.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "commons-fileupload",
+            "bom-ref": "maven:commons-fileupload:commons-fileupload:1.3.2:",
+            "name": "commons-fileupload",
+            "version": "1.3.2",
+            "purl": "pkg:maven/commons-fileupload/commons-fileupload@1.3.2",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "5d7491ed6ebd02b6a8d2305f8e6b7fe5dbd95f72"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "287d0b5ba8ac6437ee5d7f5567cb68327b6c52957c1d8292e25ecd25e04b25f5"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "Yahoo!",
+                "url": [
+                    "http://commons.apache.org/proper/commons-fileupload/",
+                    "https://git-wip-us.apache.org/repos/asf?p=commons-fileupload.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "72dbba478d7b5b7a24560f6774e82ea477ad5f6e2b97ebcc813acd8917b76f0f"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/commons-fileupload-1.3.2.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-tx:4.3.10.RELEASE:",
+            "name": "spring-tx",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-tx@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "569d30fd8d2050910e0271b838cf927ebb7efcdc"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "3ce3418ad7e54878f3058a8581758e9c2e38b7e219376c8affd9d100033c0cd3"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "67599220050b171838450672addc856ba5ebe5f68f864e82e846d6a1c9d8eda2"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-tx-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "commons-io",
+            "bom-ref": "maven:commons-io:commons-io:2.4:",
+            "name": "commons-io",
+            "version": "2.4",
+            "purl": "pkg:maven/commons-io/commons-io@2.4",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "cc6a41dc3eaacc9e440a6bd0d2890b20d36b4ee408fe2d67122f328bb6e01581"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://commons.apache.org/proper/commons-io/",
+                    "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "5b23966a08b08de44b4f6d855f28459b743e58c159e0bae7cda5a6a1e866e82b"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/commons-io-2.4.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "javax.activation",
+            "bom-ref": "maven:javax.activation:activation:1.1:",
+            "name": "activation",
+            "version": "1.1",
+            "purl": "pkg:maven/javax.activation/activation@1.1",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "e6cb541461c2834bdea3eb920f1884d1eb508b50"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "2881c79c9d6ef01c58e62beea13e9d1ac8b8baa16f2fc198ad6e6776defdcdd3"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "56569c1a715f71f61614ef0369700587f354230c0b9809151a35322eaf871a92"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/activation-1.1.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.slf4j",
+            "bom-ref": "maven:org.slf4j:slf4j-log4j12:1.7.7:",
+            "name": "slf4j-log4j12",
+            "version": "1.7.7",
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.7",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "58f588119ffd1702c77ccab6acb54bfb41bed8bd"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "dba4c3c10321c86a48d689354fbfd9772a65e51e780d1e5378a5ece2e426a8f8"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "MIT",
+                    "name": "MIT license (MIT)",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "http://www.slf4j.org",
+                    "https://github.com/qos-ch/slf4j"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "48320c95b7d68a6e39886ef1232f307166f06a89d307ab8b8298fa7d3d43afe8"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/slf4j-log4j12-1.7.7.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "com.sun.xml.bind",
+            "bom-ref": "maven:com.sun.xml.bind:jaxb-impl:2.3.0:",
+            "name": "jaxb-impl",
+            "version": "2.3.0",
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.0",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "3a3c6a62719d967175b76b63925f1fb495f11437"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "edd691fc6ad7c7f3167e1a6833372367bedf6f4f2a4b8230df444a59bb3718b1"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "EDL",
+                    "name": "Eclipse Distribution License (EDL)",
+                    "url": "https://www.eclipse.org/org/documents/edl-v10.php"
+                },
+                {
+                    "id": "GPL-3.0-only",
+                    "name": "GNU General Public License version 3.0 (GPL-3.0)",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle Corporation",
+                "url": [
+                    "https://eclipse-ee4j.github.io/jaxb-ri/",
+                    "https://github.com/eclipse-ee4j/jaxb-ri.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "40634555fd6fc88cc6a8ba3d7b3c415ef0d6c41c94277e66e9a10ea1fa0b3b22"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/jaxb-impl-2.3.0.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-beans:4.3.10.RELEASE:",
+            "name": "spring-beans",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-beans@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "9d89b786f755f9b1da344f10f6f045f927679a72"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "7339ab99c5952f0059cac36d53c4e7741562c1520a9f956be93d809b272612b6"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "3cc21cb05b1146b780afbbda00328f09d71117e050abe3ee290207346eb69f78"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-beans-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-core:4.3.10.RELEASE:",
+            "name": "spring-core",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-core@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "db1462df62dbedad7244da30ec471390660271c0"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "b563e053e0d7ae3d7fe6ff6c25a4af3a440d7b8cf3b869f56bf95c9ac7369dc9"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "3a86c64471acc6ba9a1311490bb2c9f1ad1c0f7b1a291e3bf35297e6b5870093"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-core-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.springframework",
+            "bom-ref": "maven:org.springframework:spring-context:4.3.10.RELEASE:",
+            "name": "spring-context",
+            "version": "4.3.10.RELEASE",
+            "purl": "pkg:maven/org.springframework/spring-context@4.3.10.RELEASE",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "645ce6fdba38448d183a1374506fc24036009869"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "93d1c435c9107e8fa68952b9dd8045eb8f0a63f51d7c7036a104a80ad2827f40"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "",
+                "url": [
+                    "https://github.com/spring-projects/spring-framework",
+                    "https://github.com/spring-projects/spring-framework"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "26a5a0477d9da0ee8b1b377f98ab7b6b6f5ef7ad6b2f61d3d8fbe0f3943f98b4"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-context-4.3.10.RELEASE.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "javax.xml.bind",
+            "bom-ref": "maven:javax.xml.bind:jaxb-api:2.3.0:",
+            "name": "jaxb-api",
+            "version": "2.3.0",
+            "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "99f802e0cb3e953ba3d6e698795c4aeb98d37c48"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "883007989d373d19f352ba9792b25dec21dc7d0e205a710a93a3815101bb3d03"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "CDDL-1.1",
+                    "name": "Common Development and Distribution License 1.1 (CDDL-1.1)",
+                    "url": "https://spdx.org/licenses/CDDL-1.1.html"
+                },
+                {
+                    "id": "GPL-2.0-with-classpath-exception",
+                    "name": "GNU General Public License with Classpath Exceptions version 2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle Corporation",
+                "url": [
+                    "https://github.com/javaee/jaxb-spec.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "156462a204c284ec953d14579255f10969fd1b37287d1f4066d68ee77906d5b4"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/jaxb-api-2.3.0.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "com.veracode.annotation",
+            "bom-ref": "maven:com.veracode.annotation:VeracodeAnnotations:1.2.1:",
+            "name": "VeracodeAnnotations",
+            "version": "1.2.1",
+            "purl": "pkg:maven/com.veracode.annotation/VeracodeAnnotations@1.2.1",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "c7b6bcfca2967d20caa5fd1f03fd0ce7aa42b809"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "15599df0f6c0a0601f04b9adf3d4148153408d61fa8425c0e96fa9aee556b27b"
+                }
+            ],
+            "licenses": [
+                {
+                    "id": "MIT",
+                    "name": "MIT license (MIT)",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "supplier": {
+                "name": "Veracode",
+                "url": [
+                    "http://github.com/veracode/veracode-annotations",
+                    "http://github.com/veracode/veracode-annotations/tree/master"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "13660cf9ecba9c5bf22a8ca1edd03e26f9f61a15e7ed54ca4e430e6e950f64d2"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/VeracodeAnnotations-1.2.1.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "com.sun.istack",
+            "bom-ref": "maven:com.sun.istack:istack-commons-runtime:3.0.5:",
+            "name": "istack-commons-runtime",
+            "version": "3.0.5",
+            "purl": "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.5",
+            "hashes": [],
+            "licenses": [
+                {
+                    "id": "CDDL-1.1",
+                    "name": "Common Development and Distribution License 1.1 (CDDL-1.1)",
+                    "url": "https://spdx.org/licenses/CDDL-1.1.html"
+                },
+                {
+                    "id": "GPL-2.0-with-classpath-exception",
+                    "name": "GNU General Public License with Classpath Exceptions version 2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle Corporation",
+                "url": [
+                    "https://github.com/eclipse-ee4j/jaxb-istack-commons"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "f3eae24009f6d3f62de43e2186aca4720a2f748cc302a195f42e83c2cbd72f48"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/jaxb-core-2.3.0.jar:istack-commons-runtime-3.0.5.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.glassfish.jaxb",
+            "bom-ref": "maven:org.glassfish.jaxb:txw2:2.3.0:",
+            "name": "txw2",
+            "version": "2.3.0",
+            "purl": "pkg:maven/org.glassfish.jaxb/txw2@2.3.0",
+            "hashes": [],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "EDL",
+                    "name": "Eclipse Distribution License (EDL)",
+                    "url": "https://www.eclipse.org/org/documents/edl-v10.php"
+                },
+                {
+                    "id": "GPL-3.0-only",
+                    "name": "GNU General Public License version 3.0 (GPL-3.0)",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle Corporation",
+                "url": [
+                    "https://eclipse-ee4j.github.io/jaxb-ri/",
+                    "https://github.com/eclipse-ee4j/jaxb-ri.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "b6fd8d560790910c99543f725c82e5bf729de7566be138ca9e4d8fea7f64d04b"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/jaxb-core-2.3.0.jar:txw2-2.3.0.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "com.sun.mail",
+            "bom-ref": "maven:com.sun.mail:pop3:1.4.6:",
+            "name": "pop3",
+            "version": "1.4.6",
+            "purl": "pkg:maven/com.sun.mail/pop3@1.4.6",
+            "hashes": [],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "EDL",
+                    "name": "Eclipse Distribution License (EDL)",
+                    "url": "https://www.eclipse.org/org/documents/edl-v10.php"
+                },
+                {
+                    "id": "EPL-2.0",
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "id": "GPL-2.0-with-classpath-exception",
+                    "name": "GNU General Public License with Classpath Exceptions version 2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle",
+                "url": [
+                    "https://github.com/eclipse-ee4j/mail"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "9e1b9de0243933cea7987e6e8db2e55c10bceaf1f0f7d75e432e337cb5192601"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/mail-1.4.7.jar:pop3-1.4.6.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.apache.servicemix.bundles",
+            "bom-ref": "maven:org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-aop:4.3.10.RELEASE_1:",
+            "name": "org.apache.servicemix.bundles.spring-aop",
+            "version": "4.3.10.RELEASE_1",
+            "purl": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.spring-aop@4.3.10.RELEASE_1",
+            "hashes": [],
+            "licenses": [
+                {
+                    "id": "Apache-2.0",
+                    "name": "Apache License 2.0 (Apache-2.0)",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "supplier": {
+                "name": "FuseSource",
+                "url": [
+                    "https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "5f54d62c8e5fd560cdb550f96be5b53c772e67bd8553d9ce0e724f217ddd418b"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/spring-aop-4.3.10.RELEASE.jar:org.apache.servicemix.bundles.spring-aop-4.3.10.RELEASE_1.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "org.glassfish.jaxb",
+            "bom-ref": "maven:org.glassfish.jaxb:jaxb-core:2.3.0:",
+            "name": "jaxb-core",
+            "version": "2.3.0",
+            "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.3.0",
+            "hashes": [],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "GPL-3.0-only",
+                    "name": "GNU General Public License version 3.0 (GPL-3.0)",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle Corporation",
+                "url": [
+                    "https://eclipse-ee4j.github.io/jaxb-ri/",
+                    "https://github.com/eclipse-ee4j/jaxb-ri.git"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "3e24b1d641f0e673e58a3f706580ef00b9def30f9639d50ab634c2be73a17631"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/jaxb-core-2.3.0.jar:jaxb-core-2.3.0.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "javax.mail",
+            "bom-ref": "maven:javax.mail:javax.mail-api:1.4.7:",
+            "name": "javax.mail-api",
+            "version": "1.4.7",
+            "purl": "pkg:maven/javax.mail/javax.mail-api@1.4.7",
+            "hashes": [],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "EDL",
+                    "name": "Eclipse Distribution License (EDL)",
+                    "url": "https://www.eclipse.org/org/documents/edl-v10.php"
+                },
+                {
+                    "id": "EPL-2.0",
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "id": "GPL-2.0-with-classpath-exception",
+                    "name": "GNU General Public License with Classpath Exceptions version 2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle",
+                "url": [
+                    "https://github.com/javaee/javamail"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "12241c92e6b66f9a12ae837b799fa343dd8cfddf19779018ae50ad5fca794800"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/mail-1.4.7.jar:javax.mail-api-1.4.7.jar"
+                }
+            ]
+        },
+        {
+            "type": "library",
+            "group": "com.sun.mail",
+            "bom-ref": "maven:com.sun.mail:smtp:1.4.7:",
+            "name": "smtp",
+            "version": "1.4.7",
+            "purl": "pkg:maven/com.sun.mail/smtp@1.4.7",
+            "hashes": [],
+            "licenses": [
+                {
+                    "id": "CDDL-1.0",
+                    "name": "Common Development and Distribution License 1.0 (CDDL-1.0)",
+                    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+                },
+                {
+                    "id": "CECILL-1.0",
+                    "name": "CeCILL Free Software License Agreement v1.0",
+                    "url": "https://spdx.org/licenses/CECILL-1.0.html"
+                },
+                {
+                    "id": "GPL-2.0-with-classpath-exception",
+                    "name": "GNU General Public License with Classpath Exceptions version 2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ],
+            "supplier": {
+                "name": "Oracle",
+                "url": [
+                    "https://github.com/eclipse-ee4j/mail"
+                ]
+            },
+            "properties": [
+                {
+                    "name": "Bytecode Hash",
+                    "value": "04c1a774f834e2e3a266164e0d33c4728dc489d9f22c68d932ca338f2e4cde2c"
+                },
+                {
+                    "name": "File Path",
+                    "value": "verademo.war#zip:WEB-INF/lib/mail-1.4.7.jar:smtp-1.4.7.jar"
+                }
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "maven:org.springframework:spring-core:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-web:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.apache.commons:commons-collections4:4.0:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:com.veracode.annotation:VeracodeAnnotations:1.2.1:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-expression:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-jdbc:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-aop:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:com.sun.xml.bind:jaxb-impl:2.3.0:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:javax.mail:javax.mail-api:1.4.7:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-beans:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-context:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:com.sun.mail:pop3:1.4.6:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-tx:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.owasp.encoder:encoder:1.2.1:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:javax.xml.bind:jaxb-api:2.3.0:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:javax.servlet:jstl:1.2:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.glassfish.jaxb:txw2:2.3.0:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:commons-io:commons-io:2.4:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:com.sun.xml.bind:jaxb-core:2.3.0:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:javax.activation:activation:1.1:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.owasp.encoder:encoder-jsp:1.2.1:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:commons-logging:commons-logging:1.2:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:javax.mail:mail:1.4.7:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:mysql:mysql-connector-java:5.1.48:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:com.sun.istack:istack-commons-runtime:3.0.5:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-aop:4.3.10.RELEASE_1:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.slf4j:slf4j-log4j12:1.7.7:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:log4j:log4j:1.2.17:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:com.sun.mail:smtp:1.4.7:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.springframework:spring-webmvc:4.3.10.RELEASE:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.slf4j:slf4j-api:1.7.7:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:org.glassfish.jaxb:jaxb-core:2.3.0:",
+            "dependsOn": []
+        },
+        {
+            "ref": "maven:commons-fileupload:commons-fileupload:1.3.2:",
+            "dependsOn": []
+        }
+    ],
+    "metadata": {
+        "timestamp": "2022-07-06T16:04:13.308+0000",
+        "authors": [
+            {
+                "name": "Robert Larkin",
+                "email": "RLarkin@Veracode.com"
+            }
+        ],
+        "supplier": {
+            "name": "VeraInternal_RLarkin",
+            "url": []
+        },
+        "tools": [
+            {
+                "vendor": "Veracode",
+                "name": "SCA SBOM Tool",
+                "version": "1.0"
+            }
+        ],
+        "component": {
+            "type": "application",
+            "group": null,
+            "bom-ref": "Gartner Verademo test",
+            "name": "Gartner Verademo test",
+            "version": null,
+            "purl": null,
+            "hashes": [],
+            "licenses": [],
+            "supplier": null,
+            "properties": [
+                {
+                    "name": "Scan Identifier",
+                    "value": "e1a53e39-78c2-45f2-9583-8c0e95db2a3f"
+                },
+                {
+                    "name": "Application Identifier",
+                    "value": "c6606c21-3dab-479f-b703-36f54f9aa109"
+                }
+            ]
+        }
+    }
+}

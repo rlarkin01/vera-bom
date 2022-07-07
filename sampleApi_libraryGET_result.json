@@ -1,0 +1,25 @@
+{
+	"id": "maven:org.springframework:spring-webmvc:4.3.10.RELEASE:",
+	"name": "Spring Web MVC",
+	"version": "4.3.10.RELEASE",
+	"release_date": "2017-07-20",
+	"latest_version": "6.0.0-M4",
+	"latest_version_release_date": "2022-05-12",
+	"licenses": [
+		{
+			"id": "APACHE20",
+			"name": "Apache License 2.0 (Apache-2.0)",
+			"risk": "LOW"
+		}
+	],
+	"line_count": 0,
+	"language": "java",
+	"_links": {
+		"self": {
+			"href": "https://api.veracode.com/srcclr/v3/libraries/maven:org.springframework:spring-webmvc:4.3.10.RELEASE:"
+		},
+		"html": {
+			"href": "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/949?version=4.3.10.RELEASE"
+		}
+	}
+}
