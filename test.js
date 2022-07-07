@@ -73,8 +73,8 @@ function getAPIresult(path, param, method) {
     });
 }
 
-async function callVeracodeAPI(path, purl, method) {
-    return await getAPIresult(path, purl, method);
+async function callVeracodeAPI(path, vulnID, method) {
+    return await getAPIresult(path, vulnID, method);
 }
 
 function extractLicenseRisk(result) {
@@ -144,9 +144,9 @@ if (filepath !== null) {
             let sbom = JSON.parse(rawjson);
             if (sbom.hasOwnProperty('bomFormat') && sbom.bomFormat === "CycloneDX" && sbom.hasOwnProperty('components')) {
                 sbom.components.forEach(component => {
-                    let purl = component["bom-ref"];
-                    promises.push(callVeracodeAPI("/srcclr/v3/libraries/", purl, "GET"));
-                    promises.push(callVeracodeAPI("/srcclr/v3/component-activity/", purl, "GET"));
+                    let vulnID = component["bom-ref"];
+                    promises.push(callVeracodeAPI("/srcclr/v3/libraries/", vulnID, "GET"));
+                    promises.push(callVeracodeAPI("/srcclr/v3/component-activity/", vulnID, "GET"));
                     // could also connect in here to NVD API for more detail on Vuln info
                 });
             }
