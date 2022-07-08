@@ -18,8 +18,8 @@ var fileout = null;
 if (myArgs[0] == "-f") {
     filepath = myArgs[1];
 } else {
-    console.log("No file submitted.")
-    console.log("Please use format: npm test.js -f \"<your_sbom.json/xml>\"")
+    console.error("No file submitted.")
+    console.error("Please use format: npm test.js -f \"<your_sbom.json/xml>\"")
 }
 if (myArgs[2] == "-o" && myArgs[2] !== undefined) {
     fileout = myArgs[3];
@@ -66,21 +66,25 @@ function getAPIresult(path, param, method) {
         });
 
         req.on('error', (err) => {
-            console.log(err); // potential CWE 117 - improper output neutralization for logs
+            console.error(err); // potential CWE 117 - improper output neutralization for logs
         });
 
         req.end();
     });
 }
 
-async function callVeracodeAPI(path, vulnID, method) {
-    return await getAPIresult(path, vulnID, method);
+async function getLicenseRisk(vulnID) {
+    return await getAPIresult("/srcclr/v3/libraries/", vulnID, "GET");
+}
+
+async function getVulnerabilityRisk(vulnID) {
+    return await getAPIresult("/srcclr/v3/component-activity/", vulnID, "GET");
 }
 
 function extractLicenseRisk(result) {
     if (result.hasOwnProperty("_embedded") && result._embedded.hasOwnProperty("errors")) {
-        console.log("No license data returned for module "+result.params);
-        console.log("This might a first party library, ie not be a known open source or 3rd party component.");
+        console.error("No license data returned for module "+result.params);
+        console.error("This might a first party library, ie not be a known open source or 3rd party component.");
         return [];
     } else {
         return result.response.licenses;
@@ -89,8 +93,8 @@ function extractLicenseRisk(result) {
 
 function extractVulnerabilityRisk(result) {
     if (result.hasOwnProperty("_embedded") && result._embedded.hasOwnProperty("errors")) {
-        console.log("No vulnerability data returned for module "+result.params);
-        console.log("This might a first party library, ie not be a known open source or 3rd party component.");
+        console.error("No vulnerability data returned for module "+result.params);
+        console.error("This might a first party library, ie not be a known open source or 3rd party component.");
         return {};
     } else {
         return {"cvss2_vuln_counts": result.response.cvss2_vuln_counts, "cvss3_vuln_counts": result.response.cvss3_vuln_counts};
@@ -117,7 +121,7 @@ function reportResults(promiseValues) {
                 }
                 break;
             default:
-                console.log("Call result not recognized. Response: " + JSON.stringify(result));
+                console.error("Call result not recognized. Response: " + JSON.stringify(result));
         }
     });
 
@@ -145,8 +149,8 @@ if (filepath !== null) {
             if (sbom.hasOwnProperty('bomFormat') && sbom.bomFormat === "CycloneDX" && sbom.hasOwnProperty('components')) {
                 sbom.components.forEach(component => {
                     let vulnID = component["bom-ref"];
-                    promises.push(callVeracodeAPI("/srcclr/v3/libraries/", vulnID, "GET"));
-                    promises.push(callVeracodeAPI("/srcclr/v3/component-activity/", vulnID, "GET"));
+                    promises.push(getLicenseRisk(vulnID));
+                    promises.push(getVulnerabilityRisk(vulnID));
                     // could also connect in here to NVD API for more detail on Vuln info
                 });
             }
@@ -154,11 +158,11 @@ if (filepath !== null) {
         case "xml":
             // TODO parse and determine if CycloneDX, SWID, or SPDX
             // run appropriate function for above format
-            console.log("SBOM format not supported at this time. Please upload a .json file");
+            console.error("SBOM format not supported at this time. Please upload a .json file");
             break;
         // TODO case .xls, .spdx, .rdf, .yml, etc...
         default:
-            console.log("SBOM format not recognized. Please upload a .json file");
+            console.error("SBOM format not recognized. Please upload a .json file");
     }
 
     Promise.all(promises).then((values) => {

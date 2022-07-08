@@ -23,11 +23,19 @@ Ensure you have node and npm installed:
 
 Run by calling in a Terminal or cmd window (results to console):
 
-    npm test.js -f "<your_sbom.json/xml>"
+    node test.js -f "<your_sbom.json/xml>"
     
 Or save results to a json file with -o option:
 
-    npm test.js -f "<your_sbom.json/xml>" -o "<your_file.json>"
+    node test.js -f "<your_sbom.json/xml>" -o "<your_file.json>"
+    
+Or you could just redirect stdout:
+
+    node test.js -f "<your_sbom.json/xml>" > <your_file.json>
+    
+Or capture stderr:
+
+    node test.js -f "<your_sbom.json/xml>" -o "<your_file.json>" &>> logs.txt
 
 ## Extra
 
