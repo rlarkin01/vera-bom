@@ -1,13 +1,8 @@
-const os = require('os');
 const fs = require('fs');
 
 // auth.js pulls from env variables. Else can use in terminal: export API_ID=YOUR_API_ID_VALUE && export KEY=YOUR_KEY_VALUE
-const idRegex = /\bdefault\]\nveracode_api_key_id\ \=\ (\S+)/;
-const keyRegex = /\bdefault\]\nveracode_api_key_id\ \=\ \S+\nveracode_api_key_secret\ \=\ (\S+)/;
-let creds = fs.readFileSync(os.homedir()+"\/.veracode\/credentials", "utf8");
-process.env['API_ID'] = idRegex.exec(creds)[1];
-process.env['KEY'] = keyRegex.exec(creds)[1];
-
+const creds = require("./credentials.js");
+creds.setCredsToEnv();
 
 const https = require("https");
 const auth = require("./auth");
@@ -81,6 +76,10 @@ async function getVulnerabilityRisk(vulnID) {
     return await getAPIresult("/srcclr/v3/component-activity/", vulnID, "GET");
 }
 
+async function testSelf() {
+    return await getAPIresult("/api/authn/v2/users/self", "", "GET");
+}
+
 function extractLicenseRisk(result) {
     if (result.hasOwnProperty("_embedded") && result._embedded.hasOwnProperty("errors")) {
         console.error("No license data returned for module "+result.params);
@@ -134,39 +133,47 @@ function reportResults(promiseValues) {
     }
 }
 
-if (filepath !== null) {
-    let promises = [];
-    var regex = /(?:\.([^.]+))?$/;
-    var ext = regex.exec(filepath)[1];
-    // CycloneDX supports .json and .xml
-    // SWID supports .xml
-    // SPDX supports .xls, .spdx, .rdf, .json, .yml, and .xml
-    switch (ext) {
-        case "json":
-            // could also be SPDX but not handling that for now
-            let rawjson = fs.readFileSync(filepath);
-            let sbom = JSON.parse(rawjson);
-            if (sbom.hasOwnProperty('bomFormat') && sbom.bomFormat === "CycloneDX" && sbom.hasOwnProperty('components')) {
-                sbom.components.forEach(component => {
-                    let vulnID = component["bom-ref"];
-                    promises.push(getLicenseRisk(vulnID));
-                    promises.push(getVulnerabilityRisk(vulnID));
-                    // could also connect in here to NVD API for more detail on Vuln info
-                });
-            }
-            break;
-        case "xml":
-            // TODO parse and determine if CycloneDX, SWID, or SPDX
-            // run appropriate function for above format
-            console.error("SBOM format not supported at this time. Please upload a .json file");
-            break;
-        // TODO case .xls, .spdx, .rdf, .yml, etc...
-        default:
-            console.error("SBOM format not recognized. Please upload a .json file");
+function assessSBOM() {
+    if (filepath !== null) {
+        let promises = [];
+        var regex = /(?:\.([^.]+))?$/;
+        var ext = regex.exec(filepath)[1];
+        // CycloneDX supports .json and .xml
+        // SWID supports .xml
+        // SPDX supports .xls, .spdx, .rdf, .json, .yml, and .xml
+        switch (ext) {
+            case "json":
+                // could also be SPDX but not handling that for now
+                let rawjson = fs.readFileSync(filepath);
+                let sbom = JSON.parse(rawjson);
+                if (sbom.hasOwnProperty('bomFormat') && sbom.bomFormat === "CycloneDX" && sbom.hasOwnProperty('components')) {
+                    sbom.components.forEach(component => {
+                        let vulnID = component["bom-ref"];
+                        promises.push(getLicenseRisk(vulnID));
+                        promises.push(getVulnerabilityRisk(vulnID));
+                        // could also connect in here to NVD API for more detail on Vuln info
+                    });
+                }
+                break;
+            case "xml":
+                // TODO parse and determine if CycloneDX, SWID, or SPDX
+                // run appropriate function for above format
+                console.error("SBOM format not supported at this time. Please upload a .json file");
+                break;
+            // TODO case .xls, .spdx, .rdf, .yml, etc...
+            default:
+                console.error("SBOM format not recognized. Please upload a .json file");
+        }
+    
+        Promise.all(promises).then((values) => {
+            reportResults(values);
+        });
     }
-
-    Promise.all(promises).then((values) => {
-        reportResults(values);
-    });
 }
+
+function testApiConnection() {
+    testSelf().then((value) => console.log(value));
+}
+
+assessSBOM();
 
